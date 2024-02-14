@@ -1,0 +1,32 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Serviceslist
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    gap: 10px;
+    
+}
+#Serviceslist div
+{
+    background: #262626;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s,
+}
+#Serviceslist div:hover
+{
+    background: #ff004f;
+    transform: translateY(-10px);
+}
+nav ul li a: hover
+{
+    color: red;
+}
